@@ -1,0 +1,10 @@
+var layer = selection[0];
+var text = [layer stringValue];
+
+
+if (text == text.toUpperCase()) {
+  [layer setStringValue: text.toLowerCase()];
+} else {
+  [layer setStringValue: text.toUpperCase()];
+}
+
